@@ -3,6 +3,14 @@ body {
     margin: 0;
     padding: 0;
 }
+
+.sticky-nav {
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 0;
+    z-index: 1020; 
+}
+
 header {
     background-color: #333;
     color: white;
@@ -33,3 +41,5 @@ header {
 .list-item h3 {
     margin: 0 0 0.5rem 0;
 }
+
+
