@@ -10,9 +10,19 @@ header {
     text-align: center;
 }
 .hero {
-    background-color: #f4f4f4;
+    background: url('./images/hero-background.jpg') no-repeat center center;
+    background-size: cover;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    color: white;
     padding: 2rem;
     text-align: center;
+}
+
+.hero-text {
+    margin-top: 0;
 }
 .list-section {
     padding: 2rem;
