@@ -6,7 +6,8 @@ import EventDetailPage from './layouts/EventDetailPage/EventDetailPage';
 function App() {
   return (
     <div>
-    <HomePage />
+    {/* <HomePage /> */}
+    <EventDetailPage/>
     </div>
   );
 }

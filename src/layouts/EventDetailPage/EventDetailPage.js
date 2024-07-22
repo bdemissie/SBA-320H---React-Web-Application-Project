@@ -1,13 +1,13 @@
 import EventInformation from "./components/EventInformation";
-import UserResponse from "./components/UserResponse";
+import NavBar from "../NavBar/NavBar";
 
 
 function EventDetailPage() {
 
     return (
         <div>
+            <NavBar/>
             <EventInformation />
-            <UserResponse />
         </div>
 
     )

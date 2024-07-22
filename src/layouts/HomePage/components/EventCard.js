@@ -1,6 +1,15 @@
+import React from "react";
+import { useNavigate } from 'react-router-dom';
+
 function EventCard({ event }) {
 
-    const {eventName, description, date, image} = event;
+    const {id, eventName, description, date, image} = event;
+
+    const navigate = useNavigate();
+
+    const handleMoreInfoClick = () => {
+        navigate(`eventInformation/${id}`);
+    }
 
     return (
         
@@ -15,7 +24,7 @@ function EventCard({ event }) {
                         <h5 className="card-title">{eventName}</h5>
                         <p className="card-text">{description}</p>
                         <div className="d-flex justify-content-between">
-                            <a href="/#" className="btn btn-primary">More Info</a>
+                            <button className="btn btn-primary" onClick={handleMoreInfoClick}>More Info</button>
                             <span className="btn btn-primary">{date}</span>
                         </div>
                     </div>

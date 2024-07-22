@@ -51,4 +51,17 @@ header {
   margin: 0 0 0.5rem 0;
 }
 
+.custom-radio input[type="radio"] {
+  display: none;
+}
+
+.custom-radio input[type="radio"]:checked + svg {
+  fill: gold; /* Change this color to whatever you want to indicate selection */
+}
+
+.custom-radio svg {
+  cursor: pointer;
+  transition: fill 0.3s ease;
+}
+
 
