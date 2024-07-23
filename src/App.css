@@ -64,4 +64,14 @@ header {
   transition: fill 0.3s ease;
 }
 
+.selected {
+  background-color: blue;
+  color: white;
+}
+
+.custom-radio {
+  background-color: gray;
+  color: black;
+}
+
 

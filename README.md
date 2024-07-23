@@ -1,3 +1,41 @@
+# Link Up - Upcoming Events Website
+
+Link Up is a web application that displays upcoming events in an area. Built with React, this project demonstrates the use of React Router for navigation and Bootstrap for styling.
+
+## Technologies Used
+
+- **React:** A JavaScript library for building user interfaces.
+- **React Router:** A library for handling routing in React applications.
+- **Bootstrap:** A CSS framework for responsive design and styling.
+
+## Approach Taken
+
+1. **Setup:**
+   - Created a React application using Create React App.
+   - Installed and configured React Router for navigation.
+   - Used Bootstrap for consistent and responsive styling.
+
+2. **Component Structure:**
+   - **App Component:** Handles the routing between different pages.
+   - **HomePage Component:** Displays the main page with a list of upcoming events.
+   - **EventDetailPage Component:** Shows detailed information about a selected event.
+   - **EventCard Component:** Represents individual event cards in the event list.
+   - **EventInformation Component:** Displays detailed information about a specific event.
+   - **NavBar Component:** Provides navigation across the application.
+   - **Hero Component:** Displays a hero section on the homepage.
+   - **Events Component:** Renders a list of EventCard components.
+
+3. **Data Handling:**
+   - Used a static JSON file (`InitialEventData.json`) to store event data.
+   - Implemented functions to fetch and display event data.
+
+4. **Problems Faced:**
+   - Due to the limited time given for the project, I was not able to implement all I set out to do.
+        - I wanted to add a filter function that would fileter based on an event catergory but never got a chance to implement it
+        - I also faced an issue where I was not able to render images on the EventDetailPage.
+    
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

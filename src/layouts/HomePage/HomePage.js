@@ -1,3 +1,5 @@
+import React from 'react';
+
 import Hero from "./components/Hero";
 import Events from "./components/Events";
 import NavBar from "../NavBar/NavBar";
