@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import LabelButton from './LabelButton'; // Import the LabelButton component
+import LabelButton from './LabelButton'; // Import the LabelButton component a
 
 function EventInformation({ event }) {
   // Destructure event properties
